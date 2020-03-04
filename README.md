@@ -186,7 +186,7 @@ On the other hand, Makisu has some performance tweaks for large images (especial
 
 ### BuildKit / img
 
-BuildKit and img depend on runc/containerd and supports parallel stage executions, whereas Makisu and most other tools execute Dockefile in order.
+BuildKit and img depend on runc/containerd and supports parallel stage executions, whereas Makisu and most other tools execute the Dockerfile in order.
 However, BuildKit and img still need seccomp and AppArmor to be disabled to launch nested containers, which is not ideal and may not be doable in some production environments.
 
 # Contributing
